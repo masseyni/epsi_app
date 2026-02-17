@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../services/qa_service.dart';
 
 class QAScreen extends StatefulWidget {
-  const QAScreen({Key? key}) : super(key: key);
+  const QAScreen({super.key});
 
   @override
   _QAScreenState createState() => _QAScreenState();
@@ -110,38 +110,45 @@ class _QAScreenState extends State<QAScreen> {
 
                   // Historique des questions
                   ..._questionHistory.map((qa) {
-                    return Card(
-                      margin: const EdgeInsets.only(bottom: 16),
-                      child: Padding(
-                        padding: const EdgeInsets.all(16),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                              'Q: ${qa['question']}',
-                              style: const TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontSize: 16,
-                              ),
+                    return Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      children: [
+                        // Question utilisateur
+                        Align(
+                          alignment: Alignment.centerRight,
+                          child: Container(
+                            margin: const EdgeInsets.only(bottom: 8),
+                            padding: const EdgeInsets.all(12),
+                            decoration: BoxDecoration(
+                              color: Theme.of(context).primaryColor,
+                              borderRadius: BorderRadius.circular(16),
                             ),
-                            const SizedBox(height: 8),
-                            Text(
-                              'R: ${qa['answer']}',
-                              style: const TextStyle(fontSize: 14),
+                            child: Text(
+                              qa['question']!,
+                              style: const TextStyle(color: Colors.white),
                             ),
-                            const SizedBox(height: 8),
-                            Text(
-                              DateTime.parse(qa['timestamp']!).toString(),
-                              style: TextStyle(
-                                fontSize: 12,
-                                color: Colors.grey[600],
-                              ),
-                            ),
-                          ],
+                          ),
                         ),
-                      ),
+
+                        // Réponse bot
+                        Align(
+                          alignment: Alignment.centerLeft,
+                          child: Container(
+                            margin: const EdgeInsets.only(bottom: 16),
+                            padding: const EdgeInsets.all(12),
+                            decoration: BoxDecoration(
+                              color: Colors.grey.shade200,
+                              borderRadius: BorderRadius.circular(16),
+                            ),
+                            child: Text(
+                              qa['answer']!,
+                              style: const TextStyle(color: Colors.black87),
+                            ),
+                          ),
+                        ),
+                      ],
                     );
-                  }).toList(),
+                  }),
                 ],
               ),
             ),

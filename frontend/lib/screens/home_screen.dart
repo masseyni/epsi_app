@@ -12,7 +12,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   final TextEditingController _searchController = TextEditingController();
   String _searchQuery = '';
-  bool _isSearching = false;
+  final bool _isSearching = false;
 
   // Données de test pour la recherche
   final List<Map<String, dynamic>> _news = [
