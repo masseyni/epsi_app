@@ -1,0 +1,5 @@
+# Django
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+backend/db.sqlite3

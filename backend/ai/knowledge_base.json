@@ -1,0 +1,138 @@
+{
+  "international": [
+    {
+      "question": "Quels documents sont nécessaires pour les étudiants internationaux ?",
+      "answer": "Pour les étudiants internationaux, les documents requis sont : passeport valide, visa étudiant, diplômes traduits, relevés de notes, lettre de motivation, et preuve de ressources financières.",
+      "keywords": ["documents", "étudiant", "international", "visa", "passeport", "diplôme"]
+    },
+    {
+      "question": "Comment obtenir un visa étudiant ?",
+      "answer": "Le visa étudiant doit être demandé auprès de l'ambassade française de votre pays. Le processus prend généralement 2-3 semaines.",
+      "keywords": ["visa", "étudiant", "ambassade", "processus", "délai"]
+    },
+    {
+      "question": "Quel niveau de français est requis ?",
+      "answer": "Les cours sont dispensés en français. Un niveau B2 est recommandé. Des cours de français sont disponibles pour les étudiants internationaux.",
+      "keywords": ["français", "niveau", "B2", "cours", "langue"]
+    }
+  ],
+  "formations": [
+    {
+      "question": "Quelles sont les spécialisations du Bachelor SIN ?",
+      "answer": "Le Bachelor SIN propose trois spécialisations : DévOps Fullstack, Développeur IA, et Sysops. Il est accessible en initial ou en alternance.",
+      "keywords": ["bachelor", "SIN", "spécialisation", "DévOps", "IA", "Sysops"]
+    },
+    {
+      "question": "Comment fonctionne le programme FAST TRACK ?",
+      "answer": "Le programme FAST TRACK permet une rentrée décalée pour le Bachelor 1 SIN et le Mastère 1 SIN. Il est idéal pour les étudiants souhaitant se réorienter.",
+      "keywords": ["FAST TRACK", "rentrée", "décalée", "réorientation"]
+    },
+    {
+      "question": "Quels sont les parcours du Mastère SIN ?",
+      "answer": "Le Mastère SIN propose quatre parcours : Expert en Cybersécurité, Expert en Ingénierie des données, Expert en Informatique et Système d'Information, et Expert en Intelligence Artificielle.",
+      "keywords": ["mastère", "SIN", "parcours", "cybersécurité", "IA", "données"]
+    }
+  ],
+  "campus": [
+    {
+      "question": "Dans quelles villes se trouvent les campus EPSI ?",
+      "answer": "L'EPSI est présente dans 16 villes : Angers, Arras, Auxerre, Bordeaux, Chartres, Grasse, Grenoble, Lille, Lyon, Montpellier, Nantes, Paris, Reims, Rennes, Saint-Etienne et Toulouse.",
+      "keywords": ["campus", "ville", "localisation", "école"]
+    },
+    {
+      "question": "Quels équipements sont disponibles sur les campus ?",
+      "answer": "Chaque campus dispose de salles informatiques modernes, d'espaces de coworking, de laboratoires spécialisés et d'une connexion internet haut débit.",
+      "keywords": ["équipement", "salle", "informatique", "coworking", "laboratoire"]
+    },
+    {
+      "question": "Quels services sont proposés aux étudiants ?",
+      "answer": "Les campus proposent des services aux étudiants : wifi, imprimantes, salles de repos, espaces de travail collaboratif et accès aux ressources pédagogiques en ligne.",
+      "keywords": ["service", "wifi", "imprimante", "salle", "ressource"]
+    }
+  ],
+  "admission": [
+    {
+      "question": "Comment se déroule le processus d'admission ?",
+      "answer": "L'admission se fait sur dossier et entretien. Les critères incluent le niveau académique, la motivation et le projet professionnel. Aucune prépa n'est requise.",
+      "keywords": ["admission", "processus", "dossier", "entretien", "critère"]
+    },
+    {
+      "question": "Quels sont les frais de scolarité ?",
+      "answer": "Les frais de scolarité varient selon le niveau d'études et le mode de formation (initial ou alternance). Des facilités de paiement sont possibles.",
+      "keywords": ["frais", "scolarité", "prix", "paiement", "alternance"]
+    },
+    {
+      "question": "Quelles sont les options de financement ?",
+      "answer": "Plusieurs options de financement sont disponibles : alternance, bourses, prêts étudiants, et facilités de paiement. L'alternance permet de financer ses études.",
+      "keywords": ["financement", "bourse", "prêt", "alternance", "paiement"]
+    }
+  ],
+  "evenements": [
+    {
+      "question": "Quand ont lieu les portes ouvertes ?",
+      "answer": "Les portes ouvertes sont organisées régulièrement dans tous les campus. Elles permettent de découvrir l'école, les formations et d'échanger avec les équipes pédagogiques.",
+      "keywords": ["porte", "ouverte", "date", "événement", "campus"]
+    },
+    {
+      "question": "Comment participer au Job Dating ?",
+      "answer": "Le Job Dating est un événement dédié à l'alternance. Il permet aux étudiants de rencontrer des entreprises partenaires pour trouver une alternance en développement web, cybersécurité, data, etc.",
+      "keywords": ["job", "dating", "alternance", "entreprise", "recrutement"]
+    },
+    {
+      "question": "Les événements sont-ils accessibles en ligne ?",
+      "answer": "Certains événements sont disponibles en visioconférence, permettant de participer à distance aux portes ouvertes et aux sessions d'information.",
+      "keywords": ["visio", "en ligne", "distance", "événement", "participation"]
+    }
+  ],
+  "carrieres": [
+    {
+      "question": "Quels sont les débouchés après l'EPSI ?",
+      "answer": "Les formations de l'EPSI mènent à des métiers variés : développeur web, expert en cybersécurité, data scientist, ingénieur système, chef de projet IT, etc.",
+      "keywords": ["débouché", "métier", "carrière", "emploi", "profession"]
+    },
+    {
+      "question": "Quelles entreprises recrutent les étudiants ?",
+      "answer": "L'EPSI collabore avec de nombreuses entreprises : Capgemini, Orange, Thales, Accenture, IBM, etc. Ces partenariats facilitent l'accès aux stages et à l'alternance.",
+      "keywords": ["entreprise", "recrutement", "partenaire", "stage", "alternance"]
+    },
+    {
+      "question": "Quels sont les salaires moyens après l'EPSI ?",
+      "answer": "Les salaires varient selon le poste et l'expérience. Un développeur junior peut commencer à 35-40K€, un expert en cybersécurité à 45-50K€.",
+      "keywords": ["salaire", "rémunération", "développeur", "cybersécurité", "débutant"]
+    }
+  ],
+  "innovation": [
+    {
+      "question": "Qu'est-ce que My DataLab ?",
+      "answer": "My DataLab est dédié à la data science et à l'IA. Les étudiants y développent des projets d'analyse de données et d'intelligence artificielle.",
+      "keywords": ["DataLab", "data", "science", "IA", "projet"]
+    },
+    {
+      "question": "Quels types de projets sont réalisés dans les labs ?",
+      "answer": "Les étudiants peuvent participer à des projets innovants dans les différents labs. Ces projets sont souvent réalisés en partenariat avec des entreprises.",
+      "keywords": ["projet", "lab", "innovation", "entreprise", "partenariat"]
+    },
+    {
+      "question": "Quel équipement est disponible dans les labs ?",
+      "answer": "Les labs sont équipés de matériel de pointe : serveurs, équipements IoT, stations de travail pour l'IA, etc.",
+      "keywords": ["équipement", "lab", "serveur", "IoT", "station"]
+    }
+  ],
+  "technique": [
+    {
+      "question": "Quelles sont les spécifications minimales pour l'ordinateur ?",
+      "answer": "Un ordinateur portable est obligatoire. Les spécifications minimales sont : 8GB RAM, i5/Ryzen 5, 256GB SSD.",
+      "keywords": ["ordinateur", "spécification", "RAM", "SSD", "portable"]
+    },
+    {
+      "question": "Comment accéder à Moodle ?",
+      "answer": "Moodle est la plateforme d'apprentissage en ligne. Tous les cours et ressources y sont disponibles.",
+      "keywords": ["Moodle", "plateforme", "cours", "ressource", "en ligne"]
+    },
+    {
+      "question": "Quelles sont les règles de sécurité pour les mots de passe ?",
+      "answer": "Le mot de passe doit être changé tous les 3 mois. Il doit respecter les règles de sécurité.",
+      "keywords": ["mot de passe", "sécurité", "règle", "changement"]
+    }
+  ]
+} 
