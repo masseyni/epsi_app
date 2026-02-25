@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'news_page.dart';
-import 'profile_screen.dart'; // Change from package:myepsi/screens/profile_screen.dart
+import 'profile_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -12,7 +12,6 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   final TextEditingController _searchController = TextEditingController();
   String _searchQuery = '';
-  final bool _isSearching = false;
 
   // Données de test pour la recherche
   final List<Map<String, dynamic>> _news = [
@@ -76,7 +75,7 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: Colors.white,
         elevation: 0,
         title: const Text(
-          'Mamy',
+          'Accueil',
           style: TextStyle(
             color: Colors.black,
             fontWeight: FontWeight.bold,
@@ -177,73 +176,6 @@ class _HomeScreenState extends State<HomeScreen> {
                       _searchQuery = value;
                     });
                   },
-                ),
-              ),
-              const SizedBox(height: 24),
-              
-              // Banner
-              Container(
-                height: 120,
-                decoration: BoxDecoration(
-                  color: const Color(0xFF4A2A82),
-                  borderRadius: BorderRadius.circular(12),
-                ),
-                padding: const EdgeInsets.all(16),
-                child: Row(
-                  children: [
-                    Expanded(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          const Text(
-                            'Espace Étudiant',
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontWeight: FontWeight.bold,
-                              fontSize: 18,
-                            ),
-                          ),
-                          const SizedBox(height: 8),
-                          const Text(
-                            'Accédez à vos cours et ressources',
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 12,
-                            ),
-                          ),
-                          const SizedBox(height: 8),
-                          Container(
-                            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-                            decoration: BoxDecoration(
-                              color: Colors.white,
-                              borderRadius: BorderRadius.circular(20),
-                            ),
-                            child: const Text(
-                              'Accéder',
-                              style: TextStyle(
-                                color: Color(0xFF4A2A82),
-                                fontSize: 12,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    Image.asset(
-                      'assets/img/person.png',
-                      width: 80,
-                      height: 80,
-                      errorBuilder: (context, error, stackTrace) {
-                        return const Icon(
-                          Icons.person,
-                          size: 80,
-                          color: Colors.white54,
-                        );
-                      },
-                    ),
-                  ],
                 ),
               ),
               const SizedBox(height: 24),

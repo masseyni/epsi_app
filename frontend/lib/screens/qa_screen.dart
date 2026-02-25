@@ -12,7 +12,6 @@ class _QAScreenState extends State<QAScreen> {
   final QAService _qaService = QAService();
   final TextEditingController _questionController = TextEditingController();
   final List<Map<String, String>> _questionHistory = [];
-  String _answer = '';
   bool _isLoading = false;
   String? _error;
 
@@ -43,7 +42,6 @@ class _QAScreenState extends State<QAScreen> {
       );
       
       setState(() {
-        _answer = response['answer'];
         _questionHistory.insert(0, {
           'question': _questionController.text,
           'answer': response['answer'],
@@ -62,7 +60,14 @@ class _QAScreenState extends State<QAScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Assistant EPSI'),
+        title: const Text(
+          'Assistant EPSI',
+          style: TextStyle(
+            color: Colors.black,
+            fontWeight: FontWeight.bold,
+            fontSize: 20,
+          ),
+        ),
         elevation: 0,
       ),
       body: Container(
